@@ -27,9 +27,10 @@ This project is a simplified interface for an ERP (Enterprise Resource Planning)
 ### Dashboard:
 
 - The Dashboard page serves as a comprehensive overview of essential business metrics and insights.
-- Provide links for quick navigation to other pages and logout.
+- Includes links for quick navigation to the Products, Orders management and Calendar view pages.
 - **Statistics View:**
-  1. This section contains basic things like sales, users, products and orders.
+  1. This section contains basic things like total number of sales, total user who have ordered products, total number of listed products and total number of orders.
+  2. This statistics data will also get updated whenever their is change in sales, products and orders.
 - **Charts View:**
   1. This section contains data represented using charts.
   2. Contains Sales(static data), Product categories(dynamic data), Users(static data).
@@ -57,4 +58,4 @@ This project is a simplified interface for an ERP (Enterprise Resource Planning)
 
 ## Submission
 
-The project is hosted on Netlify at: [Link](repository-url)
+The project is hosted on Netlify at: [Link](https://erp-sys.netlify.app/)
