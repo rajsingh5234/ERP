@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+   width: 5px;
+   height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+   background-color: #424242;
+   border-radius: 1000px;
+}
+
+.active {
+   background-color: rgb(255 255 255 / 0.1);
+}
+
+.calendar .ant-radio-group {
+   display: none !important;
+}
